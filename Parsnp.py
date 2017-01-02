@@ -621,8 +621,8 @@ if __name__ == "__main__":
                         print "WARNING: File %s contains a non-supported special character (\'%s\') in file name. Please remove if you'd like to include. For best practices see: http://support.apple.com/en-us/HT202808"%(file,char)
                         nameok = False
                         break
-            if nameok:
-                fnafiles1.append(file)
+                if nameok:
+                    fnafiles1.append(file)
 
 
     if ref == "!":
